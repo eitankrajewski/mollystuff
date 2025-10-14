@@ -125,10 +125,7 @@ public class RobotContainer {
             return prevVal;
         }
 
-        void reset(double value) {
-            prevVal = value;
-            prevTime = Timer.getFPGATimestamp();
-        }
+        // Removed unused reset method
 
         double get() { return prevVal; }
     }
